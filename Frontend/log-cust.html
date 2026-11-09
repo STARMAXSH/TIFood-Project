@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login TIFood</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <span>TIFood</span>
+        </a>
+        <nav>
+            <p>
+                <a href="index.html">Beranda</a> | 
+                <a href="katalog.html">Katalog Produk</a>
+            </p>
+        </nav>
+        <hr>
+    </header>
+    
+    <main>
+        <div>
+            <h1>LOGIN TIFood</h1>
+            <p>Masuk untuk melanjutkan</p>
+            <p>❗ Username/email atau password salah. Periksa kembali data Anda.</p>
+        </div>
+        
+        <form action="dash-cust.html" method="GET">
+            <fieldset>
+                <legend>Masuk sebagai</legend>
+                <label>
+                    <input type="radio" name="role" value="pembeli" checked>
+                    Pembeli
+                </label>
+                <label>
+                    <input type="radio" name="role" value="admin">
+                    Admin
+                </label>
+            </fieldset>
+            <p>
+                <label for="username">Username / Email Kampus</label><br>
+                <input type="text" id="username" name="username" placeholder="xxx@student.polije.ac.id" required>
+                <span>⚠</span>
+            </p>
+            <p>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" placeholder="Masukkan Password" required>
+                <span>👁</span>
+            </p>
+            <p>
+                <button type="submit">MASUK</button>
+            </p>
+        </form>
+        
+        <p>
+            Belum punya akun? <a href="#">Daftar Akun Pembeli</a>
+        </p>
+    </main>
+    
+    <hr>
+    <footer>
+        <small>&copy; 2026 TIFood. All rights reserved.</small>
+    </footer>
+    
+</body>
+</html>

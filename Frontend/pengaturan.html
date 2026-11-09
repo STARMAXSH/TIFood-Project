@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengaturan - TIFood</title>
+</head>
+<body>
+
+    <aside>
+        <h2>TIFood</h2>
+        <nav>
+            <ul>
+                <li><a href="dash-admin.html">Dashboard</a></li>
+                <li><a href="#">Kelola Produk</a></li>
+                <li><a href="#">Riwayat Pesanan</a></li>
+                <li><a href="pengaturan.html"><strong>Pengaturan</strong></a></li>
+            </ul>
+            <p><a href="katalog.html">Katalog Publik ↗</a></p>
+        </nav>
+        <p><a href="index.html">Logout</a></p>
+    </aside>
+
+    <main>
+
+        <header>
+            <nav aria-label="breadcrumb">
+                <a href="dash-admin.html">Dashboard</a> / <span>Pengaturan</span>
+            </nav>
+            <div>
+                <label for="status-stan-atas">Status Stan</label>
+                <input type="checkbox" id="status-stan-atas" checked>
+                <mark>BUKA</mark>
+                <span>Admin HMJ</span>
+            </div>
+        </header>
+
+        <form action="#" method="GET">
+
+            <div>
+                <h1>Pengaturan</h1>
+                <button type="reset">Batal</button>
+                <button type="submit">Simpan Pengaturan</button>
+            </div>
+
+            <div>
+
+                <section>
+                    <h3>Status Operasional</h3>
+                    <p><small>Atur status dan jam buka stan</small></p>
+
+                    <p>
+                        <label for="stan-buka">Stan buka</label>
+                        <input type="checkbox" id="stan-buka" name="stan_buka" checked><br>
+                        <small>Saat dimatikan, status TUTUP tampil di Beranda dan pesanan dinonaktifkan.</small>
+                    </p>
+
+                    <p>
+                        <label for="jam-buka">Jam buka</label><br>
+                        <input type="text" id="jam-buka" name="jam_buka" value="08.00">
+                    </p>
+                    <p>
+                        <label for="jam-tutup">Jam tutup</label><br>
+                        <input type="text" id="jam-tutup" name="jam_tutup" value="16.00">
+                    </p>
+                    <p>
+                        <label for="pesan-tutup">Pesan saat stan tutup</label><br>
+                        <input type="text" id="pesan-tutup" name="pesan_tutup" value="Stan sedang tutup. Buka kembali Senin, 08.00.">
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Profil Stan</h3>
+                    <p>
+                        <label for="nama-stan">Nama stan</label><br>
+                        <input type="text" id="nama-stan" name="nama_stan" value="TIFood – Pojok TI">
+                    </p>
+                    <p>
+                        <label for="lokasi">Lokasi</label><br>
+                        <input type="text" id="lokasi" name="lokasi" value="Gedung Teknologi Informasi, Lantai 1">
+                    </p>
+                    <p>
+                        <label for="deskripsi">Deskripsi singkat</label><br>
+                        <input type="text" id="deskripsi" name="deskripsi" value="Booth kampus: makanan, minuman, dan ATK.">
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Jadwal Shift Penjaga</h3>
+                    <p><small>Tampil di Beranda</small></p>
+
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>Hari / Waktu</th>
+                                <th>Penjaga</th>
+                                <th>Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Senin–Jumat, 08.00–12.00</td>
+                                <td>Andi Pratama</td>
+                                <td><button type="button">Ubah</button></td>
+                            </tr>
+                            <tr>
+                                <td>Senin–Jumat, 12.00–16.00</td>
+                                <td>Siti Rahmawati</td>
+                                <td><button type="button">Ubah</button></td>
+                            </tr>
+                            <tr>
+                                <td>Sabtu, 08.00–12.00</td>
+                                <td>Budi Santoso</td>
+                                <td><button type="button">Ubah</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+            </div>
+
+            <div>
+
+                <section>
+                    <h3>Pemesanan</h3>
+                    <p><small>Aturan pemesanan dan stok</small></p>
+
+                    <p>
+                        <label for="terima-online">Terima pesanan online</label>
+                        <input type="checkbox" id="terima-online" name="terima_online" checked><br>
+                        <small>Tombol "Pesan Sekarang" aktif untuk Pembeli.</small>
+                    </p>
+                    <p>
+                        <label for="nonaktif-habis">Nonaktifkan pesanan otomatis saat stok habis</label>
+                        <input type="checkbox" id="nonaktif-habis" name="nonaktif_habis" checked><br>
+                        <small>Produk dengan stok 0 tidak dapat dipesan.</small>
+                    </p>
+                    <p>
+                        <label for="ambang-stok">Ambang stok menipis</label>
+                        <button type="button">−</button>
+                        <input type="number" id="ambang-stok" name="ambang_stok" value="5" min="0">
+                        <button type="button">+</button><br>
+                        <small>Badge "Menipis" muncul jika stok di bawah nilai ini.</small>
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Kontak &amp; WhatsApp</h3>
+                    <p>
+                        <label for="wa">Nomor WhatsApp penjaga</label><br>
+                        <input type="tel" id="wa" name="wa" value="+62 812-xxxx-xxxx"><br>
+                        <small>Format internasional (+62)</small>
+                    </p>
+                    <p>
+                        <label for="penjaga-hari-ini">Penjaga bertugas hari ini</label><br>
+                        <input type="text" id="penjaga-hari-ini" name="penjaga_hari_ini" value="Andi Pratama">
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Akun Admin</h3>
+                    <p>
+                        <label for="username">Username</label><br>
+                        <input type="text" id="username" name="username" value="admin.hmj">
+                    </p>
+                    <p>
+                        <label for="email">Email kampus</label><br>
+                        <input type="email" id="email" name="email" value="admin.hmj@kampus.ac.id">
+                    </p>
+                    <p>
+                        <button type="button">Ubah Password</button>
+                    </p>
+                </section>
+
+                <p role="status"><mark>✔ Pengaturan berhasil disimpan.</mark></p>
+
+            </div>
+
+        </form>
+    </main>
+
+</body>
+</html>

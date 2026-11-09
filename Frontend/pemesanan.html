@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Sekarang - TIFood</title>
+</head>
+<body>
+
+    <header>
+        <h2>TIFood</h2>
+        <nav>
+            <a href="index.html">Beranda</a> |
+            <a href="katalog.html"><strong>Katalog Produk</strong></a>
+        </nav>
+        <div>
+            <span>Asep Samsul</span>
+            <a href="index.html"><button type="button">Keluar</button></a>
+        </div>
+    </header>
+
+    <main>
+
+        <h1>Pesan Sekarang</h1>
+        <p><small>Periksa pesanan Anda sebelum dikonfirmasi.</small></p>
+
+        <form action="pesanan-berhasil.html" method="GET">
+
+            <section>
+                <h3>Ringkasan Pesanan</h3>
+
+                <div>
+                    <img src="img/pulpen-gel-hitam.png" alt="Pulpen Gel Hitam" width="60" height="60">
+                    <div>
+                        <strong>Pulpen Gel Hitam</strong><br>
+                        <small>Varian: Hitam • Stok tersedia 3 unit</small><br>
+                        <strong>Rp 7.000</strong>
+                    </div>
+                    <div>
+                        <button type="button">−</button>
+                        <input type="number" name="jumlah" value="2" min="1" max="3">
+                        <button type="button">+</button>
+                    </div>
+                </div>
+
+                <fieldset>
+                    <legend>Varian</legend>
+                    <input type="radio" id="varian-hitam" name="varian" value="Hitam" checked>
+                    <label for="varian-hitam">Hitam</label>
+
+                    <input type="radio" id="varian-biru" name="varian" value="Biru">
+                    <label for="varian-biru">Biru</label>
+
+                    <input type="radio" id="varian-merah" name="varian" value="Merah">
+                    <label for="varian-merah">Merah</label>
+                </fieldset>
+
+                <p>
+                    <label for="catatan">Catatan untuk penjaga (opsional)</label><br>
+                    <textarea id="catatan" name="catatan" rows="4" cols="60" placeholder="Contoh: diambil sebelum jam 12.00"></textarea>
+                </p>
+
+                <p>
+                    <label for="nama-pembeli">Nama Pembeli</label><br>
+                    <input type="text" id="nama-pembeli" name="nama_pembeli" value="Budi Santoso">
+                </p>
+                <p>
+                    <label for="nim-nip">NIM / NIP</label><br>
+                    <input type="text" id="nim-nip" name="nim_nip" value="E41250123">
+                </p>
+            </section>
+
+            <aside>
+                <h3>Rincian Pembayaran</h3>
+
+                <table>
+                    <tr>
+                        <td>Pulpen Gel Hitam × 2</td>
+                        <td><strong>Rp 14.000</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Biaya layanan</td>
+                        <td><strong>Rp 0</strong></td>
+                    </tr>
+                </table>
+
+                <hr>
+
+                <p>
+                    <strong>Total</strong>
+                    <strong>Rp 14.000</strong>
+                </p>
+
+                <div>
+                    <strong>📍 Ambil di stan TIFood (Pojok TI)</strong><br>
+                    <small>Bayar di tempat. Penjaga mengonfirmasi via WhatsApp.</small>
+                </div>
+
+                <p>
+                    <button type="submit">Konfirmasi Pesanan</button>
+                </p>
+                <p>
+                    <a href="detail.html"><button type="button">Kembali ke Detail Produk</button></a>
+                </p>
+            </aside>
+
+        </form>
+    </main>
+
+</body>
+</html>

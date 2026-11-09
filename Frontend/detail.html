@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Produk - Beng - Beng</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <h1>TIFood</h1>
+        </a>
+        <nav>
+            <p>
+                <a href="index.html">Beranda</a> |
+                <a href="katalog.html">Katalog Produk</a>
+            </p>
+        </nav>
+        <p>
+            <a href="log-cust.html"><button type="button">Login</button></a>
+            <a href="#"><button type="button">Daftar</button></a>
+        </p>
+        <hr>
+    </header>
+
+    <main>
+        <p>
+            <a href="katalog.html"><button type="button">&lt; Kembali ke Katalog</button></a>
+        </p>
+
+        <article>
+            <p>
+                <img src="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?auto=format&fit=crop&w=400&q=80" alt="Gambar Beng - Beng" width="300">
+            </p>
+            
+            <h2>Beng - Beng</h2>
+            
+            <p>
+                <strong>Kategori:</strong> Makanan <br>
+                <strong>Harga:</strong> Rp 2.500 <br>
+                <strong>Status Stok:</strong> ⚠️ Menipis <br>
+                <strong>Jumlah stok:</strong> 5 unit
+            </p>
+            
+            <h3>Spesifikasi & Varian</h3>
+            <ul>
+                <li>Wafer karamel berlapis cokelat dan krispi</li>
+                <li>Berat bersih 20 gram</li>
+                <li>Cocok untuk camilan pengganjal lapar saat nugas</li>
+            </ul>
+
+            <fieldset>
+                <legend>⚠️ PERINGATAN STOK MENIPIS</legend>
+                <p>Tersisa 5 unit. Segera pesan sebelum habis.</p>
+            </fieldset>
+            <br>
+
+            <form action="pemesanan.html" method="GET">
+                <p>
+                    <label for="jumlah"><b>Jumlah:</b></label><br>
+                    <input type="number" id="jumlah" name="jumlah" value="1" min="1" max="5" required>
+                    <small>Maks. 5 unit</small>
+                </p>
+                
+                <p>
+                    <button type="submit">🛒 Pesan Sekarang</button>
+                    <a href="#"><button type="button">💬 Tanya via WA</button></a>
+                </p>
+            </form>
+        </article>
+    </main>
+
+    <hr>
+    <footer>
+        <small>&copy; 2026 TIFood. All rights reserved.</small>
+    </footer>
+
+</body>
+</html>

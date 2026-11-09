@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Admin</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <span>TIFood</span>
+        </a>
+        <nav>
+            <p>
+                <a href="index.html">Beranda</a> | 
+                <a href="katalog.html">Katalog Produk</a>
+            </p>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <div>
+            <h1>LOGIN ADMIN</h1>
+            <p>Khusus pengelola stan TIFood</p>
+        </div>
+
+        <form action="dash-admin.html" method="GET">
+            <fieldset>
+                <legend>Masuk sebagai</legend>
+                <label>
+                    <input type="radio" name="role" value="pembeli">
+                    Pembeli
+                </label>
+                <label>
+                    <input type="radio" name="role" value="admin" checked>
+                    Admin
+                </label>
+            </fieldset>
+
+            <p>
+                <label for="username">Username Admin</label><br>
+                <input type="text" id="username" name="username" placeholder="admin.hmj" required>
+                <span>👤</span>
+            </p>
+
+            <p>
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" placeholder="Masukkan Password" required>
+                <span>👁</span>
+            </p>
+
+            <p>
+                <button type="submit">MASUK KE DASHBOARD</button>
+            </p>
+            
+            <p>
+                <small>
+                    🔒 Akun Admin dibuat dan diverifikasi oleh pengelola HMJ.<br>
+                    Pendaftaran mandiri hanya tersedia untuk Pembeli.<br>
+                    Lupa password? Hubungi pengelola.
+                </small>
+            </p>
+        </form>
+    </main>
+    
+    <footer>
+        <hr>
+        <small>&copy; 2026 TIFood. All rights reserved.</small>
+    </footer>
+
+</body>
+</html>

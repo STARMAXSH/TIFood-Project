@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIFood - Katalog Produk</title>
+</head>
+<body>
+
+    <header>
+        <h1>TIFood</h1>
+        <p>Status: BUKA | 08.00-16.00</p>
+        
+        <nav>
+            <p>
+                <a href="index.html">Beranda</a> |
+                <a href="katalog.html">Katalog Produk</a>
+            </p>
+        </nav>
+
+        <p>
+            <a href="log-cust.html"><button type="button">Login</button></a>
+            <a href="#"><button type="button">Daftar</button></a>
+        </p>
+        <hr>
+    </header>
+
+    <main>
+        <section id="produk">
+            <h2>Katalog Produk</h2>
+            <p>Temukan makanan, minuman, dan alat tulis favoritmu di sini.</p>
+
+            <form action="#" method="GET">
+                <fieldset>
+                    <legend>Filter Produk</legend>
+                    <p>
+                        <label for="search"><b>Pencarian:</b></label><br>
+                        <input type="text" id="search" placeholder="Cari Nama Produk">
+                    </p>
+
+                    <p>
+                        <label for="kategori"><b>Kategori:</b></label><br>
+                        <select id="kategori">
+                            <option value="">Semua</option>
+                            <option value="makanan">Makanan</option>
+                            <option value="minuman">Minuman</option>
+                            <option value="atk">Alat Tulis</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="urutkan"><b>Urutkan:</b></label><br>
+                        <select id="urutkan">
+                            <option value="murah">Termurah - Termahal</option>
+                            <option value="mahal">Termahal - Termurah</option>
+                            <option value="abjad">A - Z</option>
+                        </select>
+                    </p>
+                    
+                    <p>
+                        <button type="submit">Terapkan Filter</button>
+                    </p>
+                </fieldset>
+            </form>
+
+            <br>
+            <article>
+                <h3>Sari Gandum</h3>
+                <p>Kategori: Makanan | Harga: Rp. 5.000</p>
+                <p>Deskripsi: Biskuit gandum utuh (whole wheat) kaya serat yang sehat dan mengenyangkan.</p>
+                <a href="detail.html"><button type="button">🛒 Pesan Sekarang</button></a>
+            </article>
+            <br>
+
+            <article>
+                <h3>Aqua</h3>
+                <p>Kategori: Minuman | Harga: Rp. 5.000</p>
+                <p>Deskripsi: Air minum dalam kemasan (AMDK) murni dari mata air pegunungan alami.</p>
+                <a href="detail.html"><button type="button">🛒 Pesan Sekarang</button></a>
+            </article>
+            <br>
+
+            <article>
+                <h3>Beng - Beng</h3>
+                <p>Kategori: Makanan | Harga: Rp. 2.500</p>
+                <p>Deskripsi: Camilan cokelat wafer renyah dengan 4 kelezatan berlapis.</p>
+                <a href="detail.html"><button type="button">🛒 Pesan Sekarang</button></a>
+            </article>
+            <br>
+
+            <article>
+                <h3>Teh Kotak</h3>
+                <p>Kategori: Minuman | Harga: Rp. 5.000</p>
+                <p>Deskripsi: Teh kemasan yang lezat dan menyegarkan, tersedia berbagai rasa.</p>
+                <a href="detail.html"><button type="button">🛒 Pesan Sekarang</button></a>
+            </article>
+        </section>
+    </main>
+
+    <hr>
+    <footer>
+        <small>&copy; 2026 TIFood. All rights reserved.</small>
+    </footer>
+
+</body>
+</html>
