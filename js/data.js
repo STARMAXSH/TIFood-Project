@@ -35,7 +35,16 @@ const products = [
     { name: "Permen Kiss / Relaxa (dapat 2)", category: "Snack", price: 500, image: "img/permen.png", emoji: "🍬", specs: ["Permen mint aneka rasa: Barley, Apple Peach, Cherry, Grape", "Harga Rp 500 mendapat 2 butir", "Cocok untuk penyegar mulut"] },
     { name: "Chocopie",             category: "Snack", price: 2500, image: "img/chocopie.png", emoji: "🍰", specs: ["Kue lembut berlapis cokelat dengan isi krim", "Kemasan satuan", "Manis dan lembut"] },
     { name: "Siip",                 category: "Snack", price: 1000, image: "img/siip.png", emoji: "🥨", specs: ["Wafer stik rasa keju (Nabati Siip)", "Kemasan kecil", "Renyah dan gurih"] },
-    
+    { name: "Keju Cake",            category: "Snack", price: 2500, image: "img/keju-cake.png", emoji: "🍞", specs: ["Kue bolu rasa keju", "Kemasan satuan", "Lembut dan gurih manis"] },
+    { name: "Dilan Choco",          category: "Snack", price: 3000, image: "img/dilan-choco.png", emoji: "🍫", specs: ["Camilan cokelat kemasan", "Kemasan satuan", "Manis dan praktis"] },
+    { name: "Chocolatos Besar",     category: "Snack", price: 1500, image: "img/chocolatos-besar.png", emoji: "🍫", specs: ["Wafer stik berlapis cokelat", "Kemasan ukuran besar", "Renyah dan manis"] },
+    { name: "Oreo Panjang",         category: "Snack", price: 2500, image: "img/oreopj.png", emoji: "🍪", specs: ["Biskuit cokelat isi krim cokelat", "Kemasan panjang isi beberapa keping", "Enak dicelup ke susu"] },
+    { name: "Malkist Keju",         category: "Snack", price: 1000, image: "img/malkist-keju.png", emoji: "🧀", specs: ["Biskuit crackers rasa keju", "Kemasan saku", "Renyah dan gurih"] },
+    { name: "Jetz",                 category: "Snack", price: 2000, image: "img/jetz.png", emoji: "🥨", specs: ["Snack stik rasa cokelat", "Kemasan snack ringan", "Renyah dan manis"] },
+    { name: "Keripik Kaca",         category: "Snack", price: 5000, image: "img/keripca.png", emoji: "🍘", specs: ["Keripik tipis dan renyah", "Kemasan kecil", "Cocok untuk camilan murah"] },
+    { name: "French",               category: "Snack", price: 2000, image: "img/french.png", emoji: "🍟", specs: ["Snack kentang goreng kemasan", "Rasa gurih", "Renyah"] },
+    { name: "Tictac",               category: "Snack", price: 1000, image: "img/tictac.png", emoji: "🍬", specs: ["Snack singkong rasa sapi panggang", "Kemasan snack ringan", "Renyah dan gurih"] },
+    { name: "Twistko",              category: "Snack", price: 1000, image: "img/twistko.png", emoji: "🍿", specs: ["Snack jagung rasa jagung bakar", "Kemasan snack ringan", "Renyah dan gurih"] },
 ];
 
 const favoriteNames = ["Oreo Mini", "Onigiri", "YOUC-1000", "Popmie Soto"];
