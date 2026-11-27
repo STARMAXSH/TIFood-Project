@@ -30,6 +30,12 @@ const products = [
     { name: "Oreo Mini",            category: "Snack", price: 2500, image: "img/oreom.png", emoji: "🍪", specs: ["Biskuit cokelat isi krim vanila ukuran mini", "Kemasan saku", "Enak dicelup ke susu"] },
     { name: "Piatos Rumput Laut",   category: "Snack", price: 2000, image: "img/piatos-rumput.png", emoji: "🥔", specs: ["Keripik kentang rasa rumput laut", "Kemasan snack ringan", "Renyah dan gurih"] },
     { name: "Piatos Sapi Panggang", category: "Snack", price: 2000, image: "img/piatos-sapi.png", emoji: "🥔", specs: ["Keripik kentang rasa sapi panggang", "Kemasan snack ringan", "Renyah dan gurih"] },
+    { name: "Superstar",            category: "Snack", price: 1000, image: "img/superstar.png", emoji: "⭐", specs: ["Snack ringan kemasan", "Rasa gurih", "Cocok untuk camilan murah"] },
+    { name: "Pasta Keju",           category: "Snack", price: 1000, image: "img/pasta-keju.png", emoji: "🧀", specs: ["Snack pasta rasa keju", "Kemasan kecil", "Renyah dan gurih"] },
+    { name: "Permen Kiss / Relaxa (dapat 2)", category: "Snack", price: 500, image: "img/permen.png", emoji: "🍬", specs: ["Permen mint aneka rasa: Barley, Apple Peach, Cherry, Grape", "Harga Rp 500 mendapat 2 butir", "Cocok untuk penyegar mulut"] },
+    { name: "Chocopie",             category: "Snack", price: 2500, image: "img/chocopie.png", emoji: "🍰", specs: ["Kue lembut berlapis cokelat dengan isi krim", "Kemasan satuan", "Manis dan lembut"] },
+    { name: "Siip",                 category: "Snack", price: 1000, image: "img/siip.png", emoji: "🥨", specs: ["Wafer stik rasa keju (Nabati Siip)", "Kemasan kecil", "Renyah dan gurih"] },
+    
 ];
 
 const favoriteNames = ["Oreo Mini", "Onigiri", "YOUC-1000", "Popmie Soto"];
