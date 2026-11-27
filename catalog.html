@@ -1,55 +1,45 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Katalog Produk · TIFood</title>
-  <!-- Font dari Google Fonts (perlu internet; tanpa internet otomatis pakai font bawaan) -->
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-  <!-- Semua tampilan (warna, ukuran, tata letak) ada di file ini -->
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Katalog Produk · TIFood</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header class="topbar" id="topbar"></header>
 
-  <!-- Menu atas (diisi otomatis oleh kerangka.js, sama di semua halaman) -->
-  <header class="menu-atas" id="menu-atas"></header>
+    <main>
+        <section class="page-head">
+            <div class="container">
+                <h1>Katalog produk</h1>
+                <p>Snack, makanan, dan minuman yang ada di stan TIFood.</p>
+                <label class="search-box">🔍 <input id="search" type="search" placeholder="Cari produk, misalnya Oreo atau Pop Mie"></label>
+            </div>
+        </section>
+        <div class="container">
+            <div class="filters">
+                <div class="options" id="category-buttons"></div>
+                <div class="sort">
+                    <select id="sort" aria-label="Urutkan produk">
+                        <option value="price-asc">Harga termurah</option>
+                        <option value="price-desc">Harga termahal</option>
+                        <option value="name">Nama A–Z</option>
+                    </select>
+                </div>
+            </div>
+            <p class="result-count" id="result-count"></p>
 
-  <main>
-    <section class="kepala-halaman">
-      <div class="wadah">
-        <h1>Katalog produk</h1>
-        <p>Snack, makanan, dan minuman yang ada di stan TIFood.</p>
-        <label class="kolom-cari">🔍 <input id="cari" type="search" placeholder="Cari produk, misalnya Oreo atau Pop Mie"></label>
-      </div>
-    </section>
-
-    <div class="wadah">
-      <!-- Tombol kategori dan pilihan urutan -->
-      <div class="penyaring">
-        <div class="pilihan" id="pilihan-kategori"></div>
-        <div class="urutan">
-          <select id="urutan" aria-label="Urutkan produk">
-            <option value="murah">Harga termurah</option>
-            <option value="mahal">Harga termahal</option>
-            <option value="nama">Nama A–Z</option>
-          </select>
+            <div class="card-grid" id="card-grid"></div>
         </div>
-      </div>
-      <p class="jumlah-hasil" id="jumlah-hasil"></p>
+    </main>
 
-      <!-- Kartu produk (diisi otomatis dari data.js) -->
-      <div class="daftar-kartu" id="daftar-kartu"></div>
-    </div>
-  </main>
+    <footer class="footer" id="footer"></footer>
 
-  <!-- Footer (diisi otomatis oleh kerangka.js, sama di semua halaman) -->
-  <footer class="kaki" id="kaki"></footer>
-
-  <!-- ===== KODE JAVASCRIPT ===== -->
-  <script src="js/data.js"></script>          <!-- 1. data toko, jadwal, dan produk (yang sering diedit) -->
-  <script src="js/fungsi-bantu.js"></script>  <!-- 2. fungsi kecil yang dipakai berulang -->
-  <script src="js/kerangka.js"></script>      <!-- 3. menu atas dan footer -->
-  <script src="js/katalog.js"></script>        <!-- 4. isi halaman Katalog -->
-  <script>pasangKerangka("katalog"); tampilkanKatalog();</script>
+    <script src="js/data.js"></script>
+    <script src="js/helpers.js"></script>
+    <script src="js/layout.js"></script>
+    <script src="js/catalog.js"></script>
 </body>
 </html>
