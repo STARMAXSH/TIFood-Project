@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda-TIFood</title>
+    <link href=""https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <ling rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class = "topbar" id = "topbar"></header>
+    <main>
+        <section class = "hero" id = "hero"></section>
+        <div class = "ticker"><div class = "ticker-track" id = "ticker"></div>
+        <div class = "container">
+            <section class = "slider" id = "slider" aria-label = "Banner TIFood"></section>
+            <section class = "duty" id = "duty"></section>
+            <section class = "section">
+                <div class = "section-title">
+                    <h2>Mau Jajan Apa?</h2></div>
+                <div class = "categories" id = "categories"></div>
+            </section>
+            
+            <section class = "section panel panel-purple">
+                <div class = "section-title">
+                    <h2>Paling Sering Dibeli</h2></div>
+                <div class = "card-grid" id = "favorites"></div>
+            </section>
+
+            <section class="section">
+                <div class="section-title"><h2>Cara beli di TIFood</h2></div>
+                <div class="steps">
+                    <div><div class="num">1</div><h3>Pilih di katalog</h3><p>Cari snack, makanan, atau minuman yang kamu mau.</p></div>
+                    <div><div class="num">2</div><h3>Datang ke stan</h3><p>Kunjungi stan TIFood saat jam buka dan sebutkan pesananmu.</p></div>
+                    <div><div class="num">3</div><h3>Bayar dan nikmati</h3><p>Bayar di tempat. Mau tanya stok dulu? Chat penjaga lewat WhatsApp.</p></div>
+                </div>
+            </section>
+
+            <section class="section panel panel-mint">
+                <div class="section-title"><h2>Jadwal piket Sekret &amp; POTI</h2></div>
+                <div class="table-box"><div class="table-scroll">
+                    <table class="schedule">
+                        <colgroup><col class="hour-col"><col><col><col><col><col></colgroup>
+                        <thead><tr><th>Jam</th><th>Senin</th><th>Selasa</th><th>Rabu</th><th>Kamis</th><th>Jumat</th></tr></thead>
+                        <tbody id="schedule-body"></tbody>
+                    </table>
+                </div></div>
+            </section>
+      
+            <section class="cta">
+                <div>
+                    <h2>Ada yang mau ditanyakan?</h2>
+                    <p>Tanya stok atau harga langsung ke penjaga stan.</p></div>
+                <a class="btn" id="whatsapp-button" target="_blank" rel="noopener">Chat via WhatsApp</a>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer" id="footer"></footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/helpers.js"></script>
+    <script src="js/layout.js"></script>
+    <script src="js/shop-status.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
