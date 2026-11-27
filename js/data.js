@@ -77,6 +77,13 @@ const products = [
     { name: "Sosis",                category: "Makanan", price: 6000,  image: "img/sosis-bakar.png", emoji: "🌭", specs: ["Sosis goreng/bakar", "Disajikan hangat", "Cocok untuk camilan"] },
     { name: "Tela Tela",            category: "Makanan", price: 6000,  image: "img/tela-tela.png", emoji: "🍠", specs: ["Camilan olahan ubi/singkong", "Disajikan hangat", "Cocok untuk camilan"] },
     { name: "Dimsum",               category: "Makanan", price: 7000,  image: "img/dimsum.png", emoji: "🥟", specs: ["Dimsum kukus", "Disajikan hangat", "Cocok untuk camilan berat"] },
+    { name: "Buah Potong",          category: "Makanan", price: 6000,  image: "img/buah-potong.png", emoji: "🍉", specs: ["Buah segar potong", "Disajikan dingin", "Pilihan camilan sehat"] },
+    { name: "Nasi Ayam Asam Manis", category: "Makanan", price: 10000, image: "img/nasi-ayam-asam-manis.png", emoji: "🍗", specs: ["Nasi dengan ayam saus asam manis", "Satu porsi lengkap", "Cocok untuk makan siang"] },
+    { name: "Pudot",                category: "Makanan", price: 7000,  image: "img/pudot.png", emoji: "🍮", specs: ["Camilan/kue basah", "Kemasan satuan", "Cocok untuk camilan manis"] },
+    { name: "Puding",               category: "Makanan", price: 4000,  image: "img/puding.png", emoji: "🍮", specs: ["Puding manis", "Disajikan dingin", "Lembut dan segar"] },
+    { name: "Bomboloni",            category: "Makanan", price: 3000,  image: "img/bomboloni.png", emoji: "🍩", specs: ["Donat isi krim ala Italia", "Lembut dan manis", "Cocok untuk camilan manis"] },
+    { name: "Risol",                category: "Makanan", price: 3500,  image: "img/risol.png", emoji: "🌯", specs: ["Risol isian gurih", "Kulit tipis, digoreng renyah", "Cocok untuk camilan"] },
+    { name: "Klepon",               category: "Makanan", price: 2000,  image: "img/klepon.png", emoji: "🍡", specs: ["Jajanan pasar bola ketan isi gula merah", "Taburan kelapa parut", "Manis dan kenyal"] },
 ];
 
 const favoriteNames = ["Oreo Mini", "Onigiri", "YOUC-1000", "Popmie Soto"];
