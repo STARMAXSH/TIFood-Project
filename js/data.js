@@ -68,6 +68,7 @@ const products = [
     { name: "Basreng Kecil",        category: "Snack", price: 3000, image: "img/basreng-kecil.png", emoji: "🍢", specs: ["Bakso goreng (basreng) kemasan kecil", "Rasa gurih pedas", "Renyah"] },
     { name: "Top Kecil",            category: "Snack", price: 1000, image: "img/top.png", emoji: "🍿", specs: ["Wafer cokelat", "Kemasan satuan", "Renyah dan manis"] },
     { name: "Coki-coki",            category: "Snack", price: 1500, image: "img/coki-coki.png", emoji: "🍫", specs: ["Cokelat pasta rasa Chococashew", "Kemasan tabung satuan", "Manis dan praktis"] },
+   
     // ----- Makanan ----
     { name: "Pop Mie Soto",         category: "Makanan", price: 7000,  image: "img/popmie-soto.png", emoji: "🍜", specs: ["Mie instan cup rasa soto ayam", "Seduh air panas, siap makan 3 menit", "Tersedia air panas di stan"] },
     { name: "Pop Mie",              category: "Makanan", price: 7000,  image: "img/popmie-goreng.png", emoji: "🍜", specs: ["Mie instan cup", "Seduh air panas, siap makan 3 menit", "Tersedia air panas di stan"] },
@@ -84,6 +85,16 @@ const products = [
     { name: "Bomboloni",            category: "Makanan", price: 3000,  image: "img/bomboloni.png", emoji: "🍩", specs: ["Donat isi krim ala Italia", "Lembut dan manis", "Cocok untuk camilan manis"] },
     { name: "Risol",                category: "Makanan", price: 3500,  image: "img/risol.png", emoji: "🌯", specs: ["Risol isian gurih", "Kulit tipis, digoreng renyah", "Cocok untuk camilan"] },
     { name: "Klepon",               category: "Makanan", price: 2000,  image: "img/klepon.png", emoji: "🍡", specs: ["Jajanan pasar bola ketan isi gula merah", "Taburan kelapa parut", "Manis dan kenyal"] },
+
+    // ----- Makanan & minuman titipan di POTI -----
+    { name: "Nasi Cokot",           category: "Makanan", price: 7000,  image: "img/Nasicokot.png", emoji: "🍚", specs: ["Nasi kepal isi abon", "Titipan POTI, satu porsi", "Cocok untuk makan siang"] },
+    { name: "Nasi Ayam",            category: "Makanan", price: 12000, image: "img/nasi-ayam.png", emoji: "🍗", specs: ["Nasi dengan lauk ayam", "Titipan POTI, satu porsi lengkap", "Cocok untuk makan siang"] },
+    { name: "Mie Ayam",             category: "Makanan", price: 8000,  image: "img/mie-ayam.png", emoji: "🍜", specs: ["Mie dengan topping ayam", "Titipan POTI, satu porsi", "Disajikan hangat"] },
+    { name: "Tahu Walik",           category: "Makanan", price: 5000,  image: "img/tahu-walik.png", emoji: "🧆", specs: ["Tahu goreng isi adonan, dibalik", "Titipan POTI", "Renyah dan gurih"] },
+    { name: "Jelly Puding",         category: "Makanan", price: 5000,  image: "img/jelly-puding.png", emoji: "🍮", specs: ["Puding dan jeli manis", "Titipan POTI", "Disajikan dingin"] },
+    { name: "Lumpia",               category: "Makanan", price: 3000,  image: "img/lumpia.png", emoji: "🌯", specs: ["Lumpia goreng isian sayur", "Titipan POTI", "Renyah dan gurih"] },
+    { name: "Cheesecuit",           category: "Makanan", price: 6000,  image: "img/chescuit.png", emoji: "🧀", specs: ["Camilan keju goreng", "Titipan POTI", "Renyah dan gurih"] },
+    { name: "Basreng",              category: "Makanan", price: 5000,  image: "img/basreng.png", emoji: "🍢", specs: ["Bakso goreng (basreng) renyah", "Titipan POTI", "Rasa gurih pedas"] },
 ];
 
 const favoriteNames = ["Oreo Mini", "Onigiri", "YOUC-1000", "Popmie Soto"];
