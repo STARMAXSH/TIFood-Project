@@ -105,5 +105,18 @@ const homeBanners = [
     { title: "Lapar saat jam kuliah?", text: "Nasi ayam, mie ayam, onigiri, dan Pop Mie hangat siap mengisi perut.",
         button: "Lihat makanan", link: "catalog.html?category=Makanan", image: "img/banner-makanan.png", color: "cat-makanan" },
     { title: "Teman begadang tugas", text: "Americano dan Es untuk menemani kamu mengerjakan tugas.",
-        button: "Lihat minuman", link: "catalog.html?category=Minuman", image: "img/banner-minuman.png", color: "cat-minuman" }
+        button: "Lihat minuman", link: "catalog.html?category=Minuman", image: "img/banner-minuman.png", color: "cat-minuman" },
+
+    // ----- Minuman -----
+    { name: "Le Mineral",           category: "Minuman", price: 3000, image: "img/lemineral.png", emoji: "☕", specs: ["Air minum dalam kemasan", "Menyegarkan dan praktis dibawa", "Ukuran kemasan belum diketahui"] },
+    { name: "Isoplus",              category: "Minuman", price: 4000, image: "img/isoplus.png", emoji: "🍧", specs: ["Minuman isotonik dengan 7 ion dan vitamin C", "Kemasan botol 350 ml", "Menggantikan cairan tubuh yang hilang"] },
+    { name: "Teh Pucuk",            category: "Minuman", price: 4000, image: "img/teh-pucuk.png", emoji: "🍧", specs: ["Teh melati siap minum dari pucuk daun teh pilihan dan ekstrak bunga melati", "Kemasan botol 500 ml", "Pilihan rasa: less sugar dan reguler"] },
+    { name: "Teh Kotak",            category: "Minuman", price: 4000, image: "img/teh-kotak.png", emoji: "🍧", specs: ["Teh siap minum dalam kemasan kotak", "Ukuran 300 ml", "Tersedia beberapa varian rasa"] },
+    { name: "Cimory UHT",           category: "Minuman", price: 7000, image: "img/cimory.png", emoji: "🍧", specs: ["Susu UHT kemasan kotak", "Ukuran 250 ml", "Banyak pilihan rasa"] },
+    { name: "Milku",                category: "Minuman", price: 4000, image: "img/milku.png", emoji: "🍧", specs: ["Susu UHT dari susu sapi Belgia", "Botol PET 200 ml", "Rasa: Cokelat Premium, Stroberi, dan Marie Biskuit"] },
+    { name: "You C1000",            category: "Minuman", price: 8000, image: "img/youc1000.png", emoji: "🍧", specs: ["Minuman vitamin C 1.000 mg per botol", "Botol 140 ml", "Botol 140 ml"] },
+    { name: "Fruit Tea",            category: "Minuman", price: 8000, image: "img/fruit-tea.png", emoji: "🍧", specs: ["Teh hitam rasa buah", "Kemasan botol PET 500 ml", "Rasa: Apel"] },
+    { name: "Floridina",            category: "Minuman", price: 3000, image: "img/floridina.png", emoji: "🍧", specs: ["Minuman rasa jeruk dengan bulir buah", "Botol plastik 350 ml", "Rasa: Orange"] },
+    { name: "Nutriboost",           category: "Minuman", price: 7500, image: "img/nutribost.png", emoji: "🍧", specs: ["Minuman vitamin C 1.000 mg per botol", "Botol 140 ml", "Botol 140 ml"] },
+    { name: "Americano",            category: "Minuman", price: 10000, image: "img/americano.png", emoji: "🍧", specs: ["Kopi espresso yang dicampur air", "Rasa kopi pekat tanpa susu", "Bisa disajikan panas atau dingin"] },
 ];
