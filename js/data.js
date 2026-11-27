@@ -68,6 +68,15 @@ const products = [
     { name: "Basreng Kecil",        category: "Snack", price: 3000, image: "img/basreng-kecil.png", emoji: "🍢", specs: ["Bakso goreng (basreng) kemasan kecil", "Rasa gurih pedas", "Renyah"] },
     { name: "Top Kecil",            category: "Snack", price: 1000, image: "img/top.png", emoji: "🍿", specs: ["Wafer cokelat", "Kemasan satuan", "Renyah dan manis"] },
     { name: "Coki-coki",            category: "Snack", price: 1500, image: "img/coki-coki.png", emoji: "🍫", specs: ["Cokelat pasta rasa Chococashew", "Kemasan tabung satuan", "Manis dan praktis"] },
+    // ----- Makanan ----
+    { name: "Pop Mie Soto",         category: "Makanan", price: 7000,  image: "img/popmie-soto.png", emoji: "🍜", specs: ["Mie instan cup rasa soto ayam", "Seduh air panas, siap makan 3 menit", "Tersedia air panas di stan"] },
+    { name: "Pop Mie",              category: "Makanan", price: 7000,  image: "img/popmie-goreng.png", emoji: "🍜", specs: ["Mie instan cup", "Seduh air panas, siap makan 3 menit", "Tersedia air panas di stan"] },
+    { name: "Tahu Kocek",           category: "Makanan", price: 6000,  image: "img/tahu-kocek.png", emoji: "🧆", specs: ["Tahu goreng dengan bumbu kocok", "Disajikan hangat", "Cocok untuk camilan berat"] },
+    { name: "Tahu Krispi",          category: "Makanan", price: 6000,  image: "img/tahu-krispi.png", emoji: "🧆", specs: ["Tahu goreng tepung", "Renyah di luar, lembut di dalam", "Cocok untuk camilan"] },
+    { name: "Onigiri",              category: "Makanan", price: 11000, image: "img/onigiri.png", emoji: "🍙", specs: ["Nasi kepal isi lauk, dibungkus nori", "Satu porsi mengenyangkan", "Praktis untuk makan siang"] },
+    { name: "Sosis",                category: "Makanan", price: 6000,  image: "img/sosis-bakar.png", emoji: "🌭", specs: ["Sosis goreng/bakar", "Disajikan hangat", "Cocok untuk camilan"] },
+    { name: "Tela Tela",            category: "Makanan", price: 6000,  image: "img/tela-tela.png", emoji: "🍠", specs: ["Camilan olahan ubi/singkong", "Disajikan hangat", "Cocok untuk camilan"] },
+    { name: "Dimsum",               category: "Makanan", price: 7000,  image: "img/dimsum.png", emoji: "🥟", specs: ["Dimsum kukus", "Disajikan hangat", "Cocok untuk camilan berat"] },
 ];
 
 const favoriteNames = ["Oreo Mini", "Onigiri", "YOUC-1000", "Popmie Soto"];
