@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detail Produk · TIFood</title>
+  <!-- Font dari Google Fonts (perlu internet; tanpa internet otomatis pakai font bawaan) -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Semua tampilan (warna, ukuran, tata letak) ada di file ini -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Menu atas (diisi otomatis oleh kerangka.js, sama di semua halaman) -->
+  <header class="menu-atas" id="menu-atas"></header>
+
+  <main class="wadah">
+    <!-- Isi detail produk (diisi otomatis; produk dipilih lewat alamat ?id=...) -->
+    <div id="detail"></div>
+  </main>
+
+  <!-- Footer (diisi otomatis oleh kerangka.js, sama di semua halaman) -->
+  <footer class="kaki" id="kaki"></footer>
+
+  <!-- ===== KODE JAVASCRIPT ===== -->
+  <script src="js/data.js"></script>          <!-- 1. data toko, jadwal, dan produk (yang sering diedit) -->
+  <script src="js/fungsi-bantu.js"></script>  <!-- 2. fungsi kecil yang dipakai berulang -->
+  <script src="js/kerangka.js"></script>      <!-- 3. menu atas dan footer -->
+  <script src="js/detail.js"></script>         <!-- 4. isi halaman Detail -->
+  <script>pasangKerangka("katalog"); tampilkanDetail();</script>
+</body>
+</html>
