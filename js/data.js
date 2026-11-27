@@ -55,6 +55,14 @@ const products = [
     { name: "Pilus",                category: "Snack", price: 500,  image: "img/pilus.png", emoji: "🥜", specs: ["Snack pilus kacang", "Kemasan kecil", "Renyah dan gurih"] },
     { name: "Biskuat Bolu",         category: "Snack", price: 2500, image: "img/biskuat-bolu.png", emoji: "🍞", specs: ["Bolu biskuit isi krim", "Kemasan satuan", "Lembut dan manis"] },
     { name: "Mie Kremez",           category: "Snack", price: 1500, image: "img/mie-kremez.png", emoji: "🍜", specs: ["Snack mie remas", "Kemasan kecil", "Renyah dan gurih"] },
+    { name: "Sosis",                category: "Snack", price: 2000, image: "img/sosis.png", emoji: "🌭", specs: ["Snack sosis kemasan", "Kemasan satuan", "Gurih dan praktis"] },
+    { name: "Kalpa",                category: "Snack", price: 3000, image: "img/kalpa.png", emoji: "🧇", specs: ["Wafer cokelat dengan taburan kelapa", "Kemasan satuan", "Renyah dan manis"] },
+    { name: "Chocolatos Kecil",     category: "Snack", price: 500,  image: "img/chocolatos-kecil.png", emoji: "🍫", specs: ["Wafer stik berlapis cokelat", "Kemasan ukuran kecil", "Renyah dan manis"] },
+    { name: "Wafello",              category: "Snack", price: 1000, image: "img/wafello.png", emoji: "🧇", specs: ["Wafer krim kemasan", "Kemasan kecil", "Renyah dan manis"] },
+    { name: "Chitato",              category: "Snack", price: 2000, image: "img/chitato.png", emoji: "🥔", specs: ["Keripik kentang rasa sapi panggang", "Kemasan snack ringan", "Renyah dan gurih"] },
+    { name: "Makaroni",             category: "Snack", price: 6000, image: "img/makaroni.png", emoji: "🍝", specs: ["Snack makaroni", "Kemasan satuan", "Renyah dan gurih"] },
+    { name: "Fitbar",               category: "Snack", price: 6000, image: "img/fitbar.png", emoji: "🌾", specs: ["Snack batang sereal dan serat", "Kemasan satuan", "Cocok untuk ganjal perut"] },
+
 ];
 
 const favoriteNames = ["Oreo Mini", "Onigiri", "YOUC-1000", "Popmie Soto"];
