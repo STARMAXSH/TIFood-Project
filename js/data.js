@@ -106,7 +106,7 @@ const products = [
     { name: "Tahu Walik",           category: "Makanan", price: 5000,  image: "img/tahu-walik.png", emoji: "🧆", specs: ["Tahu goreng isi adonan, dibalik", "Titipan POTI", "Renyah dan gurih"] },
     { name: "Jelly Puding",         category: "Makanan", price: 5000,  image: "img/jelly-puding.png", emoji: "🍮", specs: ["Puding dan jeli manis", "Titipan POTI", "Disajikan dingin"] },
     { name: "Lumpia",               category: "Makanan", price: 3000,  image: "img/lumpia.png", emoji: "🌯", specs: ["Lumpia goreng isian sayur", "Titipan POTI", "Renyah dan gurih"] },
-    { name: "Cheesecuit",           category: "Makanan", price: 6000,  image: "img/chescuit.png", emoji: "🧀", specs: ["Camilan keju goreng", "Titipan POTI", "Renyah dan gurih"] },
+    { name: "Cheesecuit",           category: "Makanan", price: 6000,  image: "img/cheesecuit.png", emoji: "🧀", specs: ["Camilan keju goreng", "Titipan POTI", "Renyah dan gurih"] },
     { name: "Basreng",              category: "Makanan", price: 5000,  image: "img/basreng.png", emoji: "🍢", specs: ["Bakso goreng (basreng) renyah", "Titipan POTI", "Rasa gurih pedas"] },
 ];
 
