@@ -94,3 +94,83 @@ h1, h2, h3, h4 {
     font-size: 15px; 
 }
 
+/* ---------- Menu atas ---------- */
+.topbar { 
+    background: #FFFFFF; 
+    position: sticky; 
+    top: 0; 
+    z-index: 20; 
+    border-bottom: 1px solid #DCE3EE; 
+}
+.topbar .container { 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    height: 76px; 
+    gap: 16px; 
+}
+.logo { 
+    height: 46px; 
+    width: auto; 
+}
+.topbar nav { 
+    display: flex; 
+    align-items: center; 
+    gap: 6px; 
+}
+.topbar nav a { 
+    padding: 10px 20px; 
+    border-radius: 999px; 
+    font-weight: 600; 
+    color: #5B6577; 
+}
+.topbar nav a:hover { 
+    color: #1B2638; 
+}
+.topbar nav a.active { 
+    background: #1B2638; 
+    color: #fff; 
+}
+
+/* ---------- Label harga ---------- */
+.price-tag {
+    position: relative; 
+    display: inline-block;
+    background: #1B2638; 
+    color: #fff;
+    font-family: var(--font-heading); 
+    font-weight: 800; font-size: 20px; 
+    line-height: 1;
+    padding: 9px 18px 9px 30px; 
+    border-radius: 8px 999px 999px 8px;
+}
+.price-tag::before {
+    content: ""; 
+    position: absolute; 
+    left: 11px; 
+    top: 50%; 
+    width: 9px; 
+    height: 9px;
+    margin-top: -4.5px; 
+    border-radius: 50%; 
+    background: #F3F6FB;
+}
+.price-tag.large { 
+    font-size: 32px; 
+    padding: 14px 28px 14px 46px; 
+}
+.price-tag.large::before { 
+    left: 18px; 
+    width: 14px; 
+    height: 14px; 
+    margin-top: -7px; 
+}
+.badge {
+    display: inline-block; 
+    background: #FFE08A; 
+    color: #1B2638;
+    font-size: 14px; 
+    font-weight: 700; 
+    padding: 3px 14px; 
+    border-radius: 999px;
+}
