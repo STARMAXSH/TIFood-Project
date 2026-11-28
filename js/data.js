@@ -110,7 +110,7 @@ const products = [
     { name: "Basreng",              category: "Makanan", price: 5000,  image: "img/basreng.png", emoji: "🍢", specs: ["Bakso goreng (basreng) renyah", "Titipan POTI", "Rasa gurih pedas"] },
 ];
 
-const favoriteNames = ["Oreo Mini", "Onigiri", "YOUC-1000", "Popmie Soto"];
+const favoriteNames = ["Oreo Mini", "Onigiri", "You C1000", "Pop Mie Soto"];
 
 const homeBanners = [
     { title: "Snack mulai Rp 500", text: "Puluhan pilihan camilan: biskuit, keripik, wafer, sampai permen.",
